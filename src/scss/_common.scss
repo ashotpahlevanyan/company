@@ -31,10 +31,10 @@
       background-color: $darkBlue;
       font-size: 0;
       li {
-        font-size: 16px;
         display: inline-block;
-        width: 33.33%;
-        padding: 2px 0;
+        font-size: 16px;
+        width: 32.33%;
+        margin: 0 0.5%;
         & + li {
           margin-left: 0;
         }
@@ -50,17 +50,11 @@
 @media (max-width: 576px) {
   .header {
     .routes {
-      display: block;
-      background-color: $darkBlue;
       li {
         display: block;
         width: 100%;
         padding: 2px 0;
-        & + li {
-          margin-left: 0;
-        }
         a {
-          display: block;
           text-align: left;
         }
       }
