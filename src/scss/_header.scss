@@ -1,0 +1,29 @@
+
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.header {
+  background-color: $darkBlue !important;
+  height: 80px;
+  padding: 10px 20px;
+  color: white;
+  text-align: left;
+}
+
+.company {
+  color: $white;
+  text-decoration: none;
+  font-size: 1.2em;
+  &:hover, &:focus {
+    text-decoration: none;
+    color: $lightBlue;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

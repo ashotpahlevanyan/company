@@ -1,0 +1,17 @@
+.footer {
+  background-color: $grey;
+  padding: 5px 20px;
+  .routes {
+    margin-left: 0;
+    li {
+      a {
+        border: 1px solid transparent;
+        font-weight: bold;
+        color: $darkBlue;
+        &:hover, &:focus {
+          border: 1px solid $darkBlue;
+        }
+      }
+    }
+  }
+}

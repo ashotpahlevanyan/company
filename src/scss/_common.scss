@@ -1,0 +1,25 @@
+.routes {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px;
+  li {
+    display: inline-block;
+    & + li {
+      margin-left: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: $white;
+      padding: 8px 10px;
+      line-height: 1.5;
+      border: 1px solid transparent;
+      font-weight: bold;
+      @include border-radius(5px);
+      &:hover, &:active, &:focus {
+        border: 1px solie $white;
+        color: $darkBlue;
+        background-color: $white;
+      }
+    }
+  }
+}
