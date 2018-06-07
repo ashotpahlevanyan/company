@@ -7,6 +7,7 @@ import {
 	NavbarToggler,
 	Nav,
 	NavItem } from 'reactstrap';
+import FontAwesome from 'react-fontawesome';
 
 class Header extends Component {
 	constructor(props) {
@@ -27,7 +28,9 @@ class Header extends Component {
 			<Navbar color="light" className="header" expand="md">
 				<Link to="/"><img src={logo} className="logo" alt="logo" /></Link>
 				<Link to="/" className="company">Company</Link>
-				<NavbarToggler onClick={this.toggle} />
+				<NavbarToggler onClick={this.toggle}>
+					<FontAwesome name={this.state.isOpen ? "times" : "bars"}/>
+				</NavbarToggler>
 				<Collapse isOpen={this.state.isOpen} navbar>
 					<Nav className="ml-auto routes" navbar>
 						<NavItem>
