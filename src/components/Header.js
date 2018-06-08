@@ -71,10 +71,10 @@ class Header extends Component {
 							<Link to="/contact" onClick={this.closeNavbar}>Contact</Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/signup" onClick={this.closeNavbar}>Signup</Link>
+							<Link to="/signup" onClick={this.closeNavbar}><span className="d-sm-none">Signup{' '}</span><FontAwesome name="user-plus" /></Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/signin" onClick={this.closeNavbar}>Signin</Link>
+							<Link to="/signin" onClick={this.closeNavbar}><span className="d-sm-none">Signin{' '}</span><FontAwesome name="sign-in" /></Link>
 						</NavItem>
 					</Nav>
 				</Collapse>

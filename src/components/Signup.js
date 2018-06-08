@@ -42,7 +42,7 @@ const validate = values => {
 		errors.repeatPassword = 'Required';
 	} else if (values.repeatPassword.length < 6) {
 		errors.repeatPassword = 'Must be 6 characters or more';
-	} else if(values.repeatPassword != values.password) {
+	} else if(values.repeatPassword !== values.password) {
 		errors.repeatPassword = 'Passwords must match.'
 	}
 

@@ -1,6 +1,6 @@
 
 .logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: logoSpin infinite 20s linear;
   height: 60px;
   vertical-align: middle;
 }
@@ -35,12 +35,13 @@
     background-color: $white;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar-collapse {
     position: absolute;
     left: 0;
     right: 0;
     top: 80px;
+    z-index: 10;
     border-top: 1px solid $lightBlue;
   }
 }
@@ -55,7 +56,7 @@
 //@media (min-width: 1200px) { ... }
 
 
-@keyframes App-logo-spin {
+@keyframes logoSpin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }

@@ -20,13 +20,18 @@
         color: $darkBlue;
         background-color: $white;
       }
+      .fa {
+        font-size: 25px;
+        vertical-align: middle;
+      }
     }
   }
 }
 
 .signForm {
   width: 40%;
-  max-width: 400px;
+  max-width: 600px;
+  min-width: 300px;
   margin: 20px auto;
   padding: 10px 20px;
   text-align: left;
@@ -41,7 +46,19 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .routes {
+    li {
+      margin-top: 5px;
+      & + li {
+        margin-left: 10px;
+      }
+      a {
+        display: inline-block;
+        padding: 5px 10px;
+      }
+    }
+  }
   .header {
     .routes {
       display: block;
@@ -62,6 +79,7 @@
       }
     }
   }
+
 }
 
 @media (max-width: 576px) {
