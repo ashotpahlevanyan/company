@@ -24,6 +24,23 @@
   }
 }
 
+.signForm {
+  width: 40%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  text-align: left;
+  label {
+    margin-bottom: 5px;
+  }
+  .formHeadline {
+    font-size: 25px;
+    color: $darkBlue;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     .routes {

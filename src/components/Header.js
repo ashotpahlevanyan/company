@@ -70,6 +70,12 @@ class Header extends Component {
 						<NavItem>
 							<Link to="/contact" onClick={this.closeNavbar}>Contact</Link>
 						</NavItem>
+						<NavItem>
+							<Link to="/signup" onClick={this.closeNavbar}>Signup</Link>
+						</NavItem>
+						<NavItem>
+							<Link to="/signin" onClick={this.closeNavbar}>Signin</Link>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>

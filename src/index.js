@@ -7,12 +7,16 @@ import 'font-awesome/css/font-awesome.min.css';
 import './scss/index.scss';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
+import { Provider } from 'react-redux';
+import store from './store';
 
 const history = createBrowserHistory();
 
 ReactDOM.render(
-	<Router history={history}>
-		<App />
-	</Router>,
+	<Provider store={store}>
+		<Router history={history}>
+			<App />
+		</Router>
+	</Provider>,
 	document.getElementById('root'));
 registerServiceWorker();
