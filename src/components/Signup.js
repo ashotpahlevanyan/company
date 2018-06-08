@@ -51,8 +51,8 @@ const validate = values => {
 
 const warn = values => {
 	const warnings = {};
-	if (values.age < 19) {
-		warnings.age = 'Hmm, you seem a bit young...';
+	if(!values) {
+		warnings.values = 'Please fill the form.'
 	}
 	return warnings;
 };
@@ -114,7 +114,7 @@ class Signup extends Component {
 					component={rules.renderField}
 					type="password"
 					label="Password"
-					validate={[rules.minLength2]}
+					validate={rules.minLength(6)}
 					placeholder="type password"
 					className="form-control"
 				/>
@@ -123,12 +123,12 @@ class Signup extends Component {
 					component={rules.renderField}
 					type="password"
 					label="Password Again"
-					validate={[rules.minLength2]}
+					validate={rules.minLength(6)}
 					placeholder="repeat password"
 				  className="form-control"
 				/>
 				<FormGroup className="text-center">
-					<Button type="submit" color="primary" disabled={pristine || submitting}>SignUp</Button>{' '}
+					<Button type="submit" color="primary" disabled={pristine || submitting}>Sign Up</Button>{' '}
 					<Button type="button" color="secondary" disabled={pristine || submitting} onClick={reset}>Reset</Button>
 				</FormGroup>
 			</Form>
