@@ -76,6 +76,9 @@ class Header extends Component {
 						<NavItem>
 							<Link to="/signin" onClick={this.closeNavbar}><span className="d-sm-none">Signin{' '}</span><FontAwesome name="sign-in" /></Link>
 						</NavItem>
+						<NavItem>
+							<Link to="/cv" onClick={this.closeNavbar}><span className="d-sm-none">CV{' '}</span><FontAwesome name="address-card" /></Link>
+						</NavItem>
 					</Nav>
 				</Collapse>
 			</Navbar>

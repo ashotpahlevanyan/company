@@ -7,6 +7,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Signup from './Signup';
 import Signin from './Signin';
+import Cv from './Cv';
 
 class Main extends Component {
 	render() {
@@ -19,6 +20,7 @@ class Main extends Component {
 				<Route exact path="/contact" component={Contact} />
 				<Route exact path="/signup" component={Signup} />
 				<Route exact path="/signin" component={Signin} />
+				<Route exact path="/cv" component={Cv} />
 			</main>
 		);
 	}
