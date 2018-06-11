@@ -1,0 +1,300 @@
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 30px;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.vspace {
+  margin-top: 10px;
+}
+.baselineskip {
+  margin-bottom: 10px;
+}
+.upper {
+  text-transform: uppercase;
+}
+.bigger {
+  font-size: 1.2em;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+section {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.pdv {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.avatar {
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+  /*position: absolute;*/
+  /*top: 0;
+  right: 10px;*/
+}
+.avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
+.contacts, .work {
+  padding: 10px 20px;
+}
+.contacts li, .work li {
+  padding: 5px 10px;
+  font-size: 1.2em;
+  display: block;
+}
+
+.contacts li label, .work li label {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.contacts li i {
+  width: 30px;
+  color: #2cb40b;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.contacts li a {
+  color: #33d20c;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.work > li {
+  margin-bottom: 10px;
+}
+
+.work .title {
+  font-size: 1em;
+  line-height: 1.2;
+  margin-top: 10px;
+  font-weight: 600;
+  color: $darkBlue;
+  text-align: left;
+}
+.work .company {
+  color: $middleBlue;
+  display: inline-block;
+  text-decoration: none;
+}
+.work span {
+  display: inline-block;
+}
+.work .teck {
+  display: block;
+}
+
+.work .tech, .work span, .work .stack {
+  font-style: italic;
+  margin: 0;
+  margin-top: 3px;
+  line-height: 1.5;
+
+}
+.work .years {
+  margin-left: 10px;
+}
+.work {
+  list-style-type: decimal;
+}
+
+.work .stack {
+  display: block;
+}
+
+.work .projects {
+  display: block;
+  width: 100%;
+  font-size: 0;
+}
+.work .projects li {
+  font-size: 20px;
+  margin-bottom: 0px;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.work .projects li label {
+  font-size: 1em;
+}
+.work .projects li a {
+  font-size: 1.0em;
+  color: $lightBlue;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.downloadContainer {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+}
+
+.downloadContainer .download {
+  padding: 12px 5px;
+  font-size: 1.5em;
+  line-height: 1.2;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.download {
+  font-size: 1.2em;
+  padding: 11px 15px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  border-radius: 5px;
+  border: none;
+  background-color: #33d20c;
+  text-decoration: none;
+  display: inline-block;
+}
+.download:hover,
+.download:active,
+.download:focus {
+  color: #fff;
+  background-color: #2cb40b;
+  text-decoration: none;
+}
+
+.up {
+  font-size: 1.5em;
+  padding: 6px 11px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  border-radius: 5px;
+  border: none;
+  background-color: #0c95d5;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+}
+.up:hover,
+.up:active,
+.up:focus {
+  color: #fff;
+  background-color: #0b7eb4;
+  text-decoration: none;
+}
+
+.upToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.upToTop.hide {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.8em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  .contacts, .work {
+    padding: 5px;
+  }
+  .contacts li, .work li {
+    padding: 5px;
+  }
+  .contacts li i {
+    width: 20px;
+    margin-right: 3px;
+  }
+  .work > li {
+    margin-bottom: 0px;
+  }
+  .work .title {
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+  .work .projects li {
+    font-size: 1em;
+  }
+  .contacts li label {
+    display: none;
+  }
+  .downloadContainer, .upToTop {
+    right: 15px;
+  }
+  .downloadContainer .download {
+    padding: 9px 5px;
+  }
+
+  .downloadContainer .download, .up {
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+  }
+  .downloadContainer .download:hover,
+  .downloadContainer .download:focus,
+  .up:hover,
+  .up:focus {
+    opacity: 1;
+  }
+
+}
+
+li {
+  page-break-inside: avoid;
+}
+
+@media print {
+  body {
+    font-size: 0.8em;
+  }
+  .noPrint {
+    display: none;
+  }
+}
+
+

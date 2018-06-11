@@ -1,10 +1,40 @@
 let AshotCVItems = {
+	user: {
+		name: 'Ashot',
+		surname: 'Pahlevanyan',
+		avatar: 'images/myphoto.jpg'
+	},
 	experience: [
 		{
+			_id: '0',
 			title: 'Senior Front End Engineer',
 			company: 'Upwork corporation',
 			url: 'https://upwork.com',
 			location: 'US',
+			responsibility: 'UI & UX development',
+			stack: 'ReactJS/Redux,Flux/ jQuery/ HTML5/ CSS3/ SASS/ LESS/ Bootstrap 3, 4/ Semantic-UI/ Responsive Web Design/ OOCSS/ SMACSS/ Atomic Design',
+			projects: [
+				{
+					title: 'goPanache Web',
+					url: 'https://gopanache.io/'
+				},
+				{
+					title: 'goPanache Android',
+					url: 'https://play.google.com/store/apps/details?id=com.go.panacheapp'
+				},
+				{
+					title: 'TheBarberPost App',
+					url: 'https://www.thebarberpost.net/'
+				},
+				{
+					title: 'goPanache iOS',
+					url: 'https://itunes.apple.com/us/app/gopanache-all-in-one-business/id828731355?mt=8'
+				},
+				{
+					title: 'Connect App',
+					url: 'https://itunes.apple.com/us/app/connect-by-gopanache/id1199766699?mt=8'
+				}
+			],
 			from: {
 				month: 'Feb',
 				year: '2016'
@@ -15,7 +45,6 @@ let AshotCVItems = {
 			},
 			current: true,
 			description: 'This is a company I love to work with.',
-			stack: 'ReactJS / Redux, Flux/ jQuery / HTML5 / CSS3 / SASS / LESS / Bootstrap 3, 4 / Semantic-UI / Responsive Web Design / OOCSS / SMACSS / Atomic Design',
 			media: {
 				image: '',
 				pdf: '',
@@ -29,10 +58,35 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '1',
 			title: 'Senior Quality Assurance Analyst',
 			company: 'goPanache',
 			url: 'https://gopanache.io',
 			location: 'US',
+			responsibility: '',
+			stack: 'ReactJS/Redux,Flux/ jQuery/ HTML5/ CSS3/ SASS/ LESS/ Bootstrap 3, 4/ Semantic-UI/ Responsive Web Design/ OOCSS/ SMACSS/ Atomic Design',
+			projects: [
+				{
+					title: 'goPanache Web',
+					url: 'https://gopanache.io/'
+				},
+				{
+					title: 'goPanache Android',
+					url: 'https://play.google.com/store/apps/details?id=com.go.panacheapp'
+				},
+				{
+					title: 'TheBarberPost App',
+					url: 'https://www.thebarberpost.net/'
+				},
+				{
+					title: 'goPanache iOS',
+					url: 'https://itunes.apple.com/us/app/gopanache-all-in-one-business/id828731355?mt=8'
+				},
+				{
+					title: 'Connect App',
+					url: 'https://itunes.apple.com/us/app/connect-by-gopanache/id1199766699?mt=8'
+				}
+			],
 			from: {
 				month: 'Sep',
 				year: '2015'
@@ -43,7 +97,6 @@ let AshotCVItems = {
 			},
 			current: false,
 			description: 'This is a company I don\'t love to work with.',
-			stack: 'Quality Assurance & Analysis of Web and Mobile applications. / Trello, Pivotal tracker, Heroku',
 			media: {
 				image: '',
 				pdf: '',
@@ -58,6 +111,7 @@ let AshotCVItems = {
 
 		},
 		{
+			_id: '2',
 			title: 'Senior Front-End Developer',
 			company: 'Revenviews LTD',
 			url: 'https://revenviews.com',
@@ -73,6 +127,10 @@ let AshotCVItems = {
 			current: false,
 			description: 'This is a company love to work with.',
 			stack: 'UI & UX Development of web applications / HTML5 / CSS3 / Bootstrap 3 / SASS / LESS / OOCSS',
+			responsibility: '',
+			projects: [
+
+			],
 			media: {
 				image: '',
 				pdf: '',
@@ -86,6 +144,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '3',
 			title: 'Senior Front-End Developer',
 			company: 'Upwork (oDesk) Corporation',
 			url: 'https://upwork.com',
@@ -114,6 +173,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '4',
 			title: 'Senior Front-End Developer',
 			company: 'Cattlesoft Inc.',
 			url: 'https://www.cattlesoft.com/',
@@ -142,6 +202,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '5',
 			title: 'Bioinformatician, Systems administrator',
 			company: 'Department of Pharmaceutical Biosciences, Uppsala University',
 			url: 'https://www.uu.se/',
@@ -170,6 +231,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '6',
 			title: 'Software Developer, System Administrator',
 			company: '(ICT) Literacy Test in Armenia',
 			url: 'http://www.atc.am/',
@@ -198,6 +260,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '7',
 			title: 'Research Scientist',
 			company: 'Department of Mathematics and Mechanics, Yerevan State University',
 			url: 'http://www.ysu.am/',
@@ -226,6 +289,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '8',
 			title: 'Software Quality Assurance Engineer',
 			company: 'LTX-Credence Corporation',
 			url: 'http://www.ltxc.com/',
@@ -254,6 +318,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '9',
 			title: 'Research Scientist',
 			company: 'Department of Mathematics and Mechanics, Yerevan State University',
 			url: 'http://www.ysu.com/',
@@ -282,6 +347,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '10',
 			title: 'Research & Development Engineer',
 			company: 'Yerevan Computer Research Development Institute',
 			url: 'http://www.ycrdi.am/',
@@ -310,6 +376,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '11',
 			title: 'Teaching Assistant',
 			company: 'Department of Mathematics and Mechanics, Yerevan State University',
 			url: 'http://www.ysu.am/',
@@ -338,6 +405,7 @@ let AshotCVItems = {
 			]
 		},
 		{
+			_id: '12',
 			title: 'Research & Development Intern',
 			company: 'Yerevan Computer Research Development Institute',
 			url: 'http://www.ycrdi.am/',
@@ -368,63 +436,108 @@ let AshotCVItems = {
 	],
 	education: [
 		{
+			_id: '0',
 			school: 'Yerevan State University',
 			department: 'Department of Mathematics and Mechanics',
+			url: 'https://ysu.am',
 			degree: 'PhD',
 			field: 'Mathematics',
 			grade: 'Honors',
 			activities: 'Student Scientific Society of YSU',
 			from: '2008',
 			to: '2011',
-			description: 'Thesis: "On monomorphisms and automorphisms of free periodic groups."',
-			supervisors: {
-				first: 'Varuzhan Atabekyan',
-				second: '',
-				third: ''
+			description: {
+				title: 'Thesis',
+				text: '"On monomorphisms and automorphisms of free periodic groups."'
 			},
+			supervisors: [
+				{
+					name: 'Varuzhan Atabekyan',
+					url: 'http://www.mathnet.ru/php/person.phtml?&personid=27291&option_lang=eng'
+				}
+			]
 		},
 		{
+			_id: '1',
 			school: 'Yerevan State University',
 			department: 'Department of Mathematics',
 			degree: 'BSc',
+			url: 'https://ysu.am',
 			field: 'Mathematics',
 			grade: 'Honors',
 			activities: '',
 			from: '2002',
 			to: '2006',
-			description: 'Thesis: "Embedding of absolutely free groups into groups B(m,n,1)."',
-			supervisors: {
-				first: '',
-				second: '',
-				third: ''
+			description: {
+				title: 'Thesis',
+				text: '"Embedding of absolutely free groups into groups B(m,n,1)."'
 			},
+			supervisors: []
 		},
 		{
+			_id: '2',
 			school: 'Yerevan State University',
 			department: 'Department of Mathematics',
 			degree: 'MSc',
+			url: 'https://ysu.am',
 			field: 'Mathematics',
 			grade: 'Honors',
 			activities: '',
 			from: '2006',
 			to: '2008',
-			description: 'Thesis: "On hyperbolic groups."',
-			supervisors: {
-				first: '',
-				second: '',
-				third: ''
+			description: {
+				title: 'Thesis',
+				text: '"On hyperbolic groups."'
 			},
+			supervisors: [
+
+			]
 		}
 	],
-	contacts : {
-		phone: '(+374) 55 33 22 34',
-		email: 'ashotpahlevanyan@gmail.com',
-		website: 'https://ashot.pahlevanyan.org',
-		linkedin: 'https://www.linkedin.com/pub/ashot-pahlevanyan/47/227/b2a',
-		github: 'https://www.github.com/ashotpahlevanyan',
-		upwork: 'https://www.upwork.com/freelancers/~018f49f1b5459e0869',
-		stackoverflow: 'https://careers.stackoverflow.com/ashotpahlevanyan'
-	},
+	contacts : [
+		{
+			name: 'Phone',
+			value: '(+374) 55 33 22 34',
+			url: 'tel:(+374) 55 33 22 34',
+			icon: 'phone'
+		},
+		{
+			name: 'Email',
+			value: 'ashotpahlevanyan@gmail.com',
+			url: 'mailto:ashotpahlevanyan@gmail.com',
+			icon: 'envelope'
+		},
+		{
+			name: 'Website',
+			value: 'https://ashot.pahlevanyan.org',
+			url: 'https://ashot.pahlevanyan.org',
+			icon: 'user-secret'
+		},
+		{
+			name: 'LinkedIn',
+			value: 'Ashot Pahlevanyan',
+			url: 'https://www.linkedin.com/pub/ashot-pahlevanyan/47/227/b2a',
+			icon: 'linkedin'
+		},
+		{
+			name: 'Github',
+			value: 'https://www.github.com/ashotpahlevanyan',
+			url: 'https://www.github.com/ashotpahlevanyan',
+			icon: 'github'
+		},
+		{
+			name: 'Upwork',
+			value: 'https://www.upwork.com/ashotpahlevanyan',
+			url: 'https://www.upwork.com/freelancers/~018f49f1b5459e0869',
+			icon: 'code'
+		},
+		{
+			name: 'Stackoverflow',
+			value: 'https://careers.stackoverflow.com/ashotpahlevanyan',
+			url: 'https://stackoverflow.com/users/5312316/ashot-pahlevanyan',
+			icon: 'stack-overflow'
+		}
+	],
 	languages: [
 		{
 			language: 'English',

@@ -49,7 +49,7 @@ class Header extends Component {
 		return (
 			<Navbar color="light" className="header" expand="md">
 				<Link to="/"><img src={logo} className="logo" alt="logo" /></Link>
-				<Link to="/" className="company">Company</Link>
+				<Link to="/" className="logoCompany">Company</Link>
 				<NavbarToggler onClick={this.toggle}>
 					<FontAwesome name={this.state.isOpen ? "times" : "bars"}/>
 				</NavbarToggler>

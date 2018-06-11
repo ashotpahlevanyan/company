@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import JsonData from './JsonData';
+import Experience from './CV/Experience';
+import Header from './CV/Header';
+import Education from './CV/Education';
 
 class Cv extends Component {
 
 	render() {
-		const ashotData = JsonData.AshotCVItems;
+		const userData = JsonData.AshotCVItems;
 		return(
-			<div className="text-left">
-				<pre>{JSON.stringify(ashotData, null, 3)}</pre>
+			<div>
+				<Header user={userData.user} />
+				<Experience experience={userData.experience} />
+				<Education education={userData.education} />
 			</div>
 		);
 	}
 }
-
-Cv.propTypes = {
-	items: PropTypes.array.isRequired
-};
-
-
 
 export default Cv;

@@ -12,16 +12,18 @@ import Cv from './Cv';
 class Main extends Component {
 	render() {
 		return (
-			<main>
-				<Route exact path="/" component={Home} />
-				<Route exact path="/about" component={About} />
-				<Route exact path="/team" component={Team} />
-				<Route exact path="/portfolio" component={Portfolio} />
-				<Route exact path="/contact" component={Contact} />
-				<Route exact path="/signup" component={Signup} />
-				<Route exact path="/signin" component={Signin} />
-				<Route exact path="/cv" component={Cv} />
-			</main>
+			<div className="container">
+				<main>
+					<Route exact path="/" component={Home} />
+					<Route exact path="/about" component={About} />
+					<Route exact path="/team" component={Team} />
+					<Route exact path="/portfolio" component={Portfolio} />
+					<Route exact path="/contact" component={Contact} />
+					<Route exact path="/signup" component={Signup} />
+					<Route exact path="/signin" component={Signin} />
+					<Route exact path="/cv" component={Cv} />
+				</main>
+			</div>
 		);
 	}
 }
