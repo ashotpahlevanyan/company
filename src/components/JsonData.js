@@ -641,72 +641,86 @@ let AshotCVItems = {
 		{
 			date: '',
 			title: 'Building Applications with React and Redux in ES6',
-			organiser: 'Pluralsight'
+			organiser: 'Pluralsight',
+			url: 'https://www.pluralsight.com/courses/react-redux-react-router-es6'
 		},
 		{
 			date: '',
 			title: 'Building Applications with React and Flux',
-			organiser: 'Pluralsight'
+			organiser: 'Pluralsight',
+			url: 'https://www.pluralsight.com/courses/react-flux-building-applications'
 		},
 		{
 			date: '',
 			title: 'Server Side Rendering With React And Redux',
-			organiser: 'Udemy'
+			organiser: 'Udemy',
+			url: 'https://www.udemy.com/server-side-rendering-with-react-and-redux/'
 		},
 		{
 			date: '',
 			title: 'JS - React - Advanced React And Redux',
-			organiser: 'Udemy'
+			organiser: 'Udemy',
+			url: 'https://www.udemy.com/react-redux-tutorial/'
 		},
 		{
 			date: '',
 			title: 'Design and Analysis of Algorithms',
-			organiser: 'MIT OpenCourseWare'
+			organiser: 'MIT OpenCourseWare',
+			url: 'http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/'
 		},
 		{
 			date: '',
 			title: 'Data Structures',
-			organiser: 'UC Berkeley'
+			organiser: 'UC Berkeley',
+			url: 'https://people.eecs.berkeley.edu/~jrs/61b/'
 		},
 		{
 			date: '',
 			title: 'C++/11 Programming',
-			organiser: 'B. Stroustrup, The C++ Programming Language, 4th Edition'
+			organiser: 'B. Stroustrup, The C++ Programming Language, 4th Edition',
+			url: 'https://www.amazon.com/C-Programming-Language-4th/dp/0321563840'
 		},
 		{
 			date: '',
 			title: 'STL Programming',
-			organiser: 'N. M. Josuttis, The C++ Standard Library'
+			organiser: 'N. M. Josuttis, The C++ Standard Library',
+			url: 'https://www.amazon.com/Standard-Library-Tutorial-Reference-2nd/dp/0321623215'
 		},
 		{
 			date: '',
 			title: 'Bioinformatics',
-			organiser: ''
+			organiser: '',
+			url: ''
 		},
 		{
 			date: '',
 			title: 'R/Bioconductor programming',
-			organiser: ''
+			organiser: '',
+			url: ''
 		},
 		{
 			date: '',
 			title: 'Gene Set Enrichment Analysis',
-			organiser: ''
+			organiser: '',
+			url: ''
 		},
 		{
 			date: '',
 			title: 'Genetics',
-			organiser: ''
+			organiser: '',
+			url: ''
 		},
 		{
 			date: '',
 			title: 'Python programming',
-			organiser: ''
+			organiser: '',
+			url: ''
 		},
 		{
 			date: '',
 			title: 'MATLAB',
-			organiser: ''
+			organiser: '',
+			url: ''
 		},
 	],
 	meetups: [
