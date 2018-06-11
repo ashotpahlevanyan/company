@@ -5,6 +5,7 @@ import Header from './CV/Header';
 import Education from './CV/Education';
 import Contacts from './CV/Contacts';
 import Courses from './CV/Courses';
+import Trainings from './CV/Trainings';
 
 class Cv extends Component {
 
@@ -16,6 +17,7 @@ class Cv extends Component {
 				<Contacts contacts={userData.contacts} />
 				<Experience experience={userData.experience} />
 				<Education education={userData.education} />
+				<Trainings trainings={userData.trainings} />
 				<Courses courses={userData.courses} />
 			</div>
 		);

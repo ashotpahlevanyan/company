@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 
-class CourseItem extends Component {
+export class CourseItem extends Component {
 	render() {
 		const course = this.props.course;
 		return (
@@ -11,6 +11,7 @@ class CourseItem extends Component {
 					{course.title}{course.organiser ? ', ' : ''}
 					<a href={course.url} className="company">{course.organiser}</a>
 				</h3>
+				{course.date ? <span className="">{course.date}</span> : ''}
 			</li>
 		);
 	}
@@ -31,9 +32,13 @@ class Courses extends Component {
 	}
 }
 
+CourseItem.propTypes = {
+	course: PropTypes.shape().isRequired
+};
 
 Courses.propTypes = {
 	courses: PropTypes.array.isRequired
 };
+
 
 export default Courses;
