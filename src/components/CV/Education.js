@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 class EducationItem extends Component {
 	render() {
-		const item = this.props.item;
-		const supervisorsList = item.supervisors.map((sup) => <a key={sup.url} href={sup.url}>{sup.name}</a>);
+		const {item} = this.props;
+		const supervisorsList = item.supervisors.map((sup) => <li key={sup.url}><a href={sup.url}>{sup.name}</a></li>);
 		return(
 			<li>
 				<h3 className="title">{item.school}</h3>
@@ -13,7 +13,7 @@ class EducationItem extends Component {
 				<span className="years">{item.from} -- {item.to}</span>
 				<div className="tech">
 					{ item.description.title ? <p className="stack"><label>{item.description.title}: </label>{item.description.text}</p> : '' }
-					{ item.supervisors.length ? <p className="stack"><label>{item.supervisors.length ===1 ? 'Supervisor' : 'Supervisors'}: </label>{supervisorsList}</p> : ''}
+					{ item.supervisors.length ? <div className="stack"><label>{item.supervisors.length ===1 ? 'Supervisor' : 'Supervisors'}: </label><ul className="collaborators">{supervisorsList}</ul></div> : ''}
 				</div>
 			</li>
 		);

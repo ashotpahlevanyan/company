@@ -108,7 +108,6 @@ let AshotCVItems = {
 					url: 'https://ani.pahlevanyan.org'
 				}
 			]
-
 		},
 		{
 			_id: '2',

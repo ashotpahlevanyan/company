@@ -3,6 +3,7 @@ import JsonData from './JsonData';
 import Experience from './CV/Experience';
 import Header from './CV/Header';
 import Education from './CV/Education';
+import Contacts from './CV/Contacts';
 
 class Cv extends Component {
 
@@ -11,6 +12,7 @@ class Cv extends Component {
 		return(
 			<div>
 				<Header user={userData.user} />
+				<Contacts contacts={userData.contacts} />
 				<Experience experience={userData.experience} />
 				<Education education={userData.education} />
 			</div>
