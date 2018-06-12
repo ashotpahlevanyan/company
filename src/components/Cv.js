@@ -6,6 +6,7 @@ import Education from './CV/Education';
 import Contacts from './CV/Contacts';
 import Courses from './CV/Courses';
 import Trainings from './CV/Trainings';
+import Languages from './CV/Languages';
 
 class Cv extends Component {
 
@@ -19,6 +20,7 @@ class Cv extends Component {
 				<Education education={userData.education} />
 				<Trainings trainings={userData.trainings} />
 				<Courses courses={userData.courses} />
+				<Languages languages={userData.languages} />
 			</div>
 		);
 	}
