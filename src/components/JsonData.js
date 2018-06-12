@@ -824,7 +824,7 @@ let AshotCVItems = {
 		{
 			date: '2008',
 			title: 'Best young researcher award',
-			foundation: '"Vardanank"',
+			foundation: '"Vardanank" foundation',
 			organiser: ''
 		},
 	],

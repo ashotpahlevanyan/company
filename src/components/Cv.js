@@ -10,6 +10,8 @@ import Languages from './CV/Languages';
 import Meetups from './CV/Meetups';
 import Hobbies from './CV/Hobbies';
 import Techstack from './CV/Techstack';
+import Scholarships from './CV/Scholarships';
+import Publications from './CV/Publications';
 
 class Cv extends Component {
 
@@ -26,6 +28,8 @@ class Cv extends Component {
 				<Courses courses={userData.courses} />
 				<Languages languages={userData.languages} />
 				<Meetups meetups={userData.meetups} />
+				<Scholarships scholarships={userData.scholarships} />
+				<Publications publications={userData.publications} />
 				<Hobbies hobbies={userData.hobbies} />
 			</div>
 		);

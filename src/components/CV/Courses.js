@@ -8,8 +8,9 @@ export class CourseItem extends Component {
 		return (
 			<li>
 				<h3 className="title">
-					{course.title}{course.organiser ? ', ' : ''}
+					{course.title}, {course.organiser ? ', ' : ' '}
 					<a href={course.url} className="company">{course.organiser}</a>
+					{course.foundation ? course.foundation : ''}
 				</h3>
 				{course.date ? <span className="">{course.date}</span> : ''}
 			</li>

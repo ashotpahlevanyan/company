@@ -7,9 +7,9 @@ class Hobbies extends Component {
 		return (
 			<section>
 				<h2>Hobbies</h2>
-				<p className="languages">
-					{hobbies}
-				</p>
+				<ul className="work">
+					<li>{hobbies}</li>
+				</ul>
 			</section>
 		);
 	}
