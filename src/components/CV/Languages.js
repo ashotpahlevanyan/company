@@ -10,7 +10,7 @@ class Languages extends Component {
 		return (
 			<section>
 				<h2>Languages</h2>
-				<ul>{languageList}</ul>
+				<ul className="">{languageList}</ul>
 			</section>
 		);
 	}

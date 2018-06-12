@@ -726,30 +726,30 @@ let AshotCVItems = {
 	meetups: [
 		{
 			date: 'May, 2017',
-			topic: 'Data Science Workshop',
+			title: 'Data Science Workshop',
 			organiser: 'American University Of Armenia',
-			url: 'www.aua.am',
+			url: 'https://www.aua.am',
 			location: 'Yerevan'
 		},
 		{
 			date: 'Nov, 2016',
-			topic: '#Uppstart',
-			organiser: 'Tech Meetup',
-			url: 'www.uppstart.com',
+			title: '#Uppstart',
+			organiser: 'Uppstart Tech Meetup',
+			url: 'http://www.uppstart.com',
 			location: 'Uppsala, Sweden'
 		},
 		{
 			date: 'Nov, 2016',
-			topic: 'HandsOn, Startup Tour 2016',
+			title: 'HandsOn, Startup Tour 2016',
 			organiser: 'Handson.tv',
 			url: 'https://www.handson.tv',
 			location: 'Stockholm, Sweden'
 		},
 		{
 			date: 'Nov, 2015',
-			topic: '#Uppstart',
-			organiser: 'Uppstart',
-			url: 'www.uppstart.com',
+			title: '#Uppstart',
+			organiser: 'Uppstart Tech Meetup',
+			url: 'http://www.uppstart.com',
 			location: 'Uppsala, Sweden'
 		}
 	],

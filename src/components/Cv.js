@@ -7,6 +7,9 @@ import Contacts from './CV/Contacts';
 import Courses from './CV/Courses';
 import Trainings from './CV/Trainings';
 import Languages from './CV/Languages';
+import Meetups from './CV/Meetups';
+import Hobbies from './CV/Hobbies';
+import Techstack from './CV/Techstack';
 
 class Cv extends Component {
 
@@ -18,9 +21,12 @@ class Cv extends Component {
 				<Contacts contacts={userData.contacts} />
 				<Experience experience={userData.experience} />
 				<Education education={userData.education} />
+				<Techstack techstack={userData.teckstack} />
 				<Trainings trainings={userData.trainings} />
 				<Courses courses={userData.courses} />
 				<Languages languages={userData.languages} />
+				<Meetups meetups={userData.meetups} />
+				<Hobbies hobbies={userData.hobbies} />
 			</div>
 		);
 	}
