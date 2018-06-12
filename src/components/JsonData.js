@@ -63,8 +63,8 @@ let AshotCVItems = {
 			company: 'goPanache',
 			url: 'https://gopanache.io',
 			location: 'US',
-			responsibility: '',
-			stack: 'ReactJS/Redux,Flux/ jQuery/ HTML5/ CSS3/ SASS/ LESS/ Bootstrap 3, 4/ Semantic-UI/ Responsive Web Design/ OOCSS/ SMACSS/ Atomic Design',
+			responsibility: 'Quality Assurance Analysis of Web & Mobile Applications',
+			stack: '',
 			projects: [
 				{
 					title: 'goPanache Web',
@@ -245,7 +245,7 @@ let AshotCVItems = {
 			},
 			current: false,
 			description: 'This is a company love to work with.',
-			stack: 'Data processing, Examination organization / Perl / System Administration (20 PC\'s)',
+			stack: 'Data processing, Examination organization, Perl scripting, System Administration (20 PC\'s)',
 			media: {
 				image: '',
 				pdf: '',
@@ -303,7 +303,7 @@ let AshotCVItems = {
 			},
 			current: false,
 			description: 'This is a company love to work with.',
-			stack: 'Software Testing Automation, GUI automation / Perl / Win32::GuiTest / Manual Testing / Regression testing / Test Matrix creation',
+			stack: 'Software Testing Automation, GUI automation / Perl / Win32::GuiTest / Manual Testing / Regression testing / Test Matrix creation, Application porting from Windows to Linux, QT, C++ development',
 			media: {
 				image: '',
 				pdf: '',
@@ -361,7 +361,7 @@ let AshotCVItems = {
 			},
 			current: false,
 			description: 'This is a company love to work with.',
-			stack: 'C++, C#, Microsoft SQL Development, 2d / 3d Game programming / Automation',
+			stack: 'C++, C#, Microsoft SQL, 2d / 3d Game programming / Automation, Game Simulators development',
 			media: {
 				image: '',
 				pdf: '',
