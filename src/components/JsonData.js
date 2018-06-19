@@ -15,46 +15,6 @@ let AshotCVItems = {
 			stack: 'ReactJS/Redux,Flux/ jQuery/ HTML5/ CSS3/ SASS/ LESS/ Bootstrap 3, 4/ Semantic-UI/ Responsive Web Design/ OOCSS/ SMACSS/ Atomic Design',
 			projects: [
 				{
-					title: 'proIO GmbH :: Megona.de',
-					url: 'https://megona.de/'
-				},
-				{
-					title: 'Ivan Farm Technologies LLC',
-					url: 'https://ashotpahlevanyan.github.io/iftmarketing'
-				},
-				{
-					title: 'Realize Consulting, LLC',
-					url: 'https://ashotpahlevanyan.github.io/realizeconsultant/'
-				},
-				{
-					title: 'CattleMax',
-					url: 'http://www.cattlemax.com/'
-				},
-				{
-					title: 'Legend',
-					url: 'https://ashotpahlevanyan.github.io/legend/'
-				},
-				{
-					title: 'Gardening',
-					url: 'https://ashotpahlevanyan.github.io/artidea/'
-				},
-				{
-					title: 'ArtIdea',
-					url: 'https://ashotpahlevanyan.github.io/artidea/'
-				},
-				{
-					title: 'Flower Shop',
-					url: 'https://ashotpahlevanyan.github.io/flowers/'
-				},
-				{
-					title: 'Jewelry',
-					url: 'https://ashotpahlevanyan.github.io/jw/'
-				},
-				{
-					title: 'Custmr',
-					url: 'https://www.linkedin.com/company/custmr-limited/'
-				},
-				{
 					title: 'AskKids',
 					url: 'https://ashotpahlevanyan.github.io/kids/index.html'
 				},
@@ -199,6 +159,48 @@ let AshotCVItems = {
 			current: false,
 			description: 'This is a company love to work with.',
 			stack: 'HTML5 / CSS3 / Twitter Bootstrap / Responsive Web Design / jQuery / OOCSS / SMACSS / SASS / LESS',
+			projects: [
+				{
+					title: 'proIO GmbH :: Megona.de',
+					url: 'https://megona.de/'
+				},
+				{
+					title: 'Ivan Farm Technologies LLC',
+					url: 'https://ashotpahlevanyan.github.io/iftmarketing'
+				},
+				{
+					title: 'Realize Consulting, LLC',
+					url: 'https://ashotpahlevanyan.github.io/realizeconsultant/'
+				},
+				{
+					title: 'CattleMax',
+					url: 'http://www.cattlemax.com/'
+				},
+				{
+					title: 'Legend',
+					url: 'https://ashotpahlevanyan.github.io/legend/'
+				},
+				{
+					title: 'Gardening',
+					url: 'https://ashotpahlevanyan.github.io/artidea/'
+				},
+				{
+					title: 'ArtIdea',
+					url: 'https://ashotpahlevanyan.github.io/artidea/'
+				},
+				{
+					title: 'Flower Shop',
+					url: 'https://ashotpahlevanyan.github.io/flowers/'
+				},
+				{
+					title: 'Jewelry',
+					url: 'https://ashotpahlevanyan.github.io/jw/'
+				},
+				{
+					title: 'Custmr',
+					url: 'https://www.linkedin.com/company/custmr-limited/'
+				}
+			],
 			media: {
 				image: '',
 				pdf: '',
