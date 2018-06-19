@@ -8,7 +8,7 @@ class Hobbies extends Component {
 			<section>
 				<h2>Hobbies</h2>
 				<ul className="work">
-					<li>{hobbies}</li>
+					<li className="hobbies">{hobbies}</li>
 				</ul>
 			</section>
 		);

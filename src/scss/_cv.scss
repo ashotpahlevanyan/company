@@ -135,6 +135,7 @@ section {
   color: $middleBlue;
   display: inline-block;
   text-decoration: none;
+  font-weight: bold;
   &:hover, &:focus {
     color: $lightBlue;
   }
@@ -146,10 +147,14 @@ section {
   display: block;
 }
 
+.work .hobbies {
+  font-style: italic;
+  line-height: 1.5;
+}
+
 .work .tech, .work span, .work .stack {
   font-style: italic;
-  margin: 0;
-  margin-top: 3px;
+  margin: 3px 0 0;
   line-height: 1.5;
 
 }

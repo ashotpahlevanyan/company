@@ -15,24 +15,64 @@ let AshotCVItems = {
 			stack: 'ReactJS/Redux,Flux/ jQuery/ HTML5/ CSS3/ SASS/ LESS/ Bootstrap 3, 4/ Semantic-UI/ Responsive Web Design/ OOCSS/ SMACSS/ Atomic Design',
 			projects: [
 				{
-					title: 'goPanache Web',
-					url: 'https://gopanache.io/'
+					title: 'proIO GmbH :: Megona.de',
+					url: 'https://megona.de/'
 				},
 				{
-					title: 'goPanache Android',
-					url: 'https://play.google.com/store/apps/details?id=com.go.panacheapp'
+					title: 'Ivan Farm Technologies LLC',
+					url: 'https://ashotpahlevanyan.github.io/iftmarketing'
 				},
 				{
-					title: 'TheBarberPost App',
-					url: 'https://www.thebarberpost.net/'
+					title: 'Realize Consulting, LLC',
+					url: 'https://ashotpahlevanyan.github.io/realizeconsultant/'
 				},
 				{
-					title: 'goPanache iOS',
-					url: 'https://itunes.apple.com/us/app/gopanache-all-in-one-business/id828731355?mt=8'
+					title: 'CattleMax',
+					url: 'http://www.cattlemax.com/'
 				},
 				{
-					title: 'Connect App',
-					url: 'https://itunes.apple.com/us/app/connect-by-gopanache/id1199766699?mt=8'
+					title: 'Legend',
+					url: 'https://ashotpahlevanyan.github.io/legend/'
+				},
+				{
+					title: 'Gardening',
+					url: 'https://ashotpahlevanyan.github.io/artidea/'
+				},
+				{
+					title: 'ArtIdea',
+					url: 'https://ashotpahlevanyan.github.io/artidea/'
+				},
+				{
+					title: 'Flower Shop',
+					url: 'https://ashotpahlevanyan.github.io/flowers/'
+				},
+				{
+					title: 'Jewelry',
+					url: 'https://ashotpahlevanyan.github.io/jw/'
+				},
+				{
+					title: 'Custmr',
+					url: 'https://www.linkedin.com/company/custmr-limited/'
+				},
+				{
+					title: 'AskKids',
+					url: 'https://ashotpahlevanyan.github.io/kids/index.html'
+				},
+				{
+					title: 'Slot Game',
+					url: 'https://slotgameashot.herokuapp.com'
+				},
+				{
+					title: 'Full Page Scroll',
+					url: 'https://ashotpahlevanyan.github.io/FullPageDemo/'
+				},
+				{
+					title: 'VanillaJS Open Weather API',
+					url: 'https://ashotpahlevanyan.github.io/vanillajsweather/'
+				},
+				{
+					title: 'CV Template',
+					url: 'https://ashot.pahlevanyan.org/'
 				}
 			],
 			from: {
