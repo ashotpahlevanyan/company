@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import CarouselOur from './Carousel';
+// import CarouselOur from './Carousel';
+import Gallery from './Gallery';
 
 class Portfolio extends Component {
 	render() {
 		return (
 			<div className="home">
-				<h1 className="display-3">Portfolio Component!</h1>
-				<CarouselOur />
+				<Gallery />
 			</div>
 		);
 	}

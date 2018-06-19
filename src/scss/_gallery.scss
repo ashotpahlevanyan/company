@@ -1,0 +1,41 @@
+.image-gallery {
+  max-width: 750px;
+  margin: 0 auto;
+
+  .description {
+    text-align: left;
+    a {
+      color: $lightBlue;
+      text-align: left;
+      font-size: 1.2em;
+      line-height: 1.5;
+      &:hover, &:focus {
+        color: $middleBlue;
+        text-decoration: none;
+      }
+    }
+    .title {
+      font-size: 1.6em;
+      line-height: 1.5;
+    }
+    p {
+      text-align: left;
+      a {
+        & + a {
+          margin-left: 5px;
+        }
+        &::after {
+          content: ',';
+        }
+        &:last-child {
+          &::after {
+            content: '';
+          }
+        }
+      }
+    }
+    label {
+      margin-right: 5px;
+    }
+  }
+}
