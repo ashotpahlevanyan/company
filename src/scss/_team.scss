@@ -1,0 +1,26 @@
+.team {
+  .card {
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: top;
+    & + .card {
+      margin-left: 20px;
+    }
+    .card-title {
+      color: $lightBlue;
+      margin-bottom: 10px;
+      font-size: 1.3em;
+      line-height: 1.5;
+    }
+    .card-subtitle {
+      color: $middleBlue;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    .card-text {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+  }
+}

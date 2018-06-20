@@ -2,25 +2,66 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
+import PortfolioDescription from './PortfolioDescription';
+
+const descriptions = [
+	{
+		contributors: [
+			{
+				url: '',
+				name: 'Ashot Pahlevanyan'
+			},
+			{
+				url: '',
+				name: 'Ashot Pahlevanyan'
+			}
+		],
+		title: 'Jewelry',
+		technologies: 'ReactJS, Redux, HTML5, CSS3, SEO',
+		url: ''
+	},
+	{
+		contributors: [
+			{
+				url: '',
+				name: 'Ashot Pahlevanyan'
+			},
+			{
+				url: '',
+				name: 'Ashot Pahlevanyan'
+			}
+		],
+		title: 'Jewelry',
+		technologies: 'ReactJS, Redux, HTML5, CSS3, SEO',
+		url: ''
+	},
+	{
+		contributors: [
+			{
+				url: '',
+				name: 'Ashot Pahlevanyan'
+			},
+			{
+				url: '',
+				name: 'Ashot Pahlevanyan'
+			}
+		],
+		title: 'Jewelry',
+		technologies: 'ReactJS, Redux, HTML5, CSS3, SEO',
+		url: ''
+	}
+];
 
 const items = [
 	{
 		original: 'images/1.jpg',
 		thumbnail: 'images/1t.jpg',
-		description:
-			<div className="description">
-				<a className="title" href="https://ashotpahlevanyan.github.io/jewelry">Jewelry</a>
-				<p><label>Technologies:</label> HTML5, CSS3, SEO</p>
-				<p className="contributors"><label>Contributors:</label>
-					<a className="link" href="https://ashotpahlevanyan.github.io">Ashot Pahlevanyan</a>
-					<a className="link" href="https://ashotpahlevanyan.github.io">Ashot Pahlevanyan</a>
-				</p>
-			</div>
+		description: <PortfolioDescription info={descriptions[0]} />
 	},
 	{
 		original: 'images/2.jpg',
 		thumbnail: 'images/2t.jpg',
-		description: 'Hello there'
+		description:  <PortfolioDescription info={descriptions[1]} />
 	},
 	{
 		original: 'images/3.jpg',
@@ -62,13 +103,14 @@ const items = [
 ];
 
 const settings = {
-	slideInterval: 1000,
-	slideDuration: 300,
+	slideInterval: 2000,
+	slideDuration: 450,
 	showBullets: false,
 	showPlayButton: false,
 	thumbnailPosition: 'top',
 	infinite: true,
-	useBrowserFullscreen: true
+	useBrowserFullscreen: true,
+	autoPlay: true
 };
 
 class Gallery extends Component {
@@ -80,7 +122,7 @@ class Gallery extends Component {
 }
 
 Gallery.propTypes = {
-	prop: PropTypes.array.isRequired
+	items: PropTypes.array.isRequired
 };
 
 export default Gallery;
